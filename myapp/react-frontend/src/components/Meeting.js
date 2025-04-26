@@ -31,20 +31,24 @@ function Meeting({
     if (user._id === meetingInfo.participantSessionId) {
       continue;
     }
-    
+
     let videoTags = [];
     if (userStreamMap[user._id]?.length > 0) {
       for (let trackItem of userStreamMap[user._id]) {
-        let stream = new MediaStream();
-        stream.addTrack(trackItem.track);
+        if (trackItem.track) {
+          let stream = new MediaStream();
+          stream.addTrack(trackItem.track);
 
-        videoTags.push(
-          <VideoTag 
-            key={trackItem.streamId} 
-            srcObject={stream} 
-            style={trackItem.type === "audio" ? { display: "none" } : {}}
-          />
-        );
+          videoTags.push(
+            <VideoTag 
+              key={trackItem.streamId} 
+              srcObject={stream} 
+              style={trackItem.type === "audio" ? { display: "none" } : {}}
+            />
+          );
+        } else {
+          console.warn(`Invalid track for user ${user._id}`, trackItem);
+        }
       }
     }
 
