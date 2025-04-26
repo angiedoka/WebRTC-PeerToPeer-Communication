@@ -5,6 +5,7 @@ This is React front-end of Python+React Video Calling Application.
 ## To start the application run:
 
 ```bash
+cd react-frontend
 npm install
 npm run start
 ```
