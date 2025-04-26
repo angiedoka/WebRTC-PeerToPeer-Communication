@@ -4,6 +4,7 @@ WebRTC-based video chat application using Python for our Capstone Project in COM
 
 **Disclaimer**: Built base of application using a Metered tutorial at https://www.metered.ca/blog/webrtc-with-python-building-a-video-chat-application/
 
+**Note: All coding found on this repository was split equally between both members. Repository had to be created again due to technical issue. 
 ## Group Members
 
 - [Angie Doka](https://github.com/angiedoka)
