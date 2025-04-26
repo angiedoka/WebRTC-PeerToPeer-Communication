@@ -6,6 +6,7 @@ Flask backend for the WebRTC video chat application.
 
 1. Install dependencies:
 ```bash
+cd backend
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
@@ -19,6 +20,6 @@ METERED_DOMAIN=your_domain.metered.live
 ```
 
 3. Run the server:
+```bash
+flask run  # if this does not run you may instead try running --> flask --app flaskr run
 ```
-flask run  
-````
