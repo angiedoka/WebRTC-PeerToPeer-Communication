@@ -11,7 +11,7 @@ function MeetingEnded({ onRejoin }) {
             className="btn-secondary"
             onClick={() => window.location.href = '/'}
           >
-            Return Home
+            Home
           </button>
         </div>
       </div>
