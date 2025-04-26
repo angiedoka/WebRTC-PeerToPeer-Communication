@@ -22,6 +22,7 @@ WebRTC-based video chat application using Python for our Capstone Project in COM
 git clone https://github.com/angiedoka/WebRTC-PeerToPeer-Communication.git
 cd WebRTC-PeerToPeer-Communication
 ```
+Details on running backend and then frontend can be found in the README files in each folder. 
 
 ## TO-DO
 
