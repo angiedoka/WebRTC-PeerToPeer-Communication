@@ -19,7 +19,7 @@ WebRTC-based video chat application using Python for our Capstone Project in COM
 ## Setup
 
 ```bash
-git clone https://github.com/gabrielaoljacic/WebRTC-PeerToPeer-Communication.git
+git clone https://github.com/angiedoka/WebRTC-PeerToPeer-Communication.git
 cd WebRTC-PeerToPeer-Communication
 ```
 
